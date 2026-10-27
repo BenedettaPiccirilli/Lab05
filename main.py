@@ -125,7 +125,7 @@ def main(page: ft.Page):
                alignment=ft.MainAxisAlignment.CENTER),
 
         # Sezione 3
-        ft.Text("Aggiungi un nuovo strumento" , size=20),
+        ft.Text("Aggiungi un nuovo strumento musicale" , size=20),
         ft.Row(
             controls=[tipo, marca, anno, mybtnminus, valore, mybtnplus], alignment=ft.MainAxisAlignment.CENTER,),
         ft.Row(
